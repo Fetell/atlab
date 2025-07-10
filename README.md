@@ -10,9 +10,8 @@
 3. Невозможность собрать метрики.
 
 ## Состав:
-Локальный веб-сервер с UI (html)  
+Локальный веб-сервер с UI (NGINX, Gunicorn, Django, HTML)  
 Self-contained БД (SQLite)  
-API  
 TBD
 
 ## Сущности:
