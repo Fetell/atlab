@@ -6,7 +6,7 @@
 2. Создать модели:
    - Product (name, price, description, image)
    - User (login, password)
-   - Order
+   - Order (user, product, qty, date)
 
 4. Интеграция с БД:
    - Использовать SQLAlchemy для создания таблиц.
