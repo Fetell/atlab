@@ -10,9 +10,17 @@
 3. Невозможность собрать метрики.
 
 ## Состав:
-Локальный веб-сервер с UI (NGINX, Gunicorn, Django, HTML)  
-Self-contained БД (SQLite)  
-TBD
+Backend:  
+Flask
+
+Frontend:  
+Jinja2
+
+Database:  
+SQLite
+
+Deployment:  
+NGINX, Gunicorn 
 
 ## Сущности:
 - Товары
