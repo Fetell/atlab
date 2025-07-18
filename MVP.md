@@ -4,11 +4,11 @@
 1. Установить Python + фреймворки.
 
 2. Создать модели:
-a. Product (name, price, description, image)
-b. User (login, password)
-c. Order
+   - Product (name, price, description, image)
+   - User (login, password)
+   - Order
 
-3. Интеграция с БД:
+4. Интеграция с БД:
 a. Использовать SQLAlchemy для создания таблиц.
 
 ### Basic Frontend:
