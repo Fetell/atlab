@@ -1,15 +1,24 @@
 # MVP
 
 ### Core Backend:
-1. Установить Python + фреймворки.
+1. Установить Python + фреймворки:
+   - uv
+   - FastAPI
+   - uvicorn
+   - Jinja2
+   - SQLAlchemy
 
-2. Создать модели:
-   - Product (name, price, description, image)
+3. Создать модели:
+   - Product (name, price, stock)
    - User (login, password)
-   - Order (user, product, qty, date)
+   - Order (user_id, product_id, date)
 
 4. Интеграция с БД:
-   - Использовать SQLAlchemy для создания таблиц.
+   - Подготовить PostgreSQL внутри docker-контейнера
+   - Использовать SQLAlchemy для создания таблиц
 
 ### Basic Frontend:
-1. Использовать Jinja2 для создания основных страниц (главная, корзина, заказ)
+1. Использовать Jinja2 для создания основных страниц:
+   - Главная
+   - Авторизация
+   - Заказ
