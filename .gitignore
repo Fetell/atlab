@@ -1,0 +1,4 @@
+pyproject.toml
+.venv/
+.vscode/
+my_shop/__pycache__/
