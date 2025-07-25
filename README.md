@@ -11,20 +11,19 @@
 
 ## Состав:
 Backend:  
-Flask
+FastAPI
 
 Frontend:  
 Jinja2
 
 Database:  
-SQLite
+PostgreSQL
 
 Deployment:  
-NGINX, Gunicorn 
+NGINX, uvicorn 
 
 ## Сущности:
 - Товары
-- Категории
 - Пользователи
 - Роли (клиент, администратор)
 - Корзины
