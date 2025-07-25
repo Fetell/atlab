@@ -10,16 +10,16 @@
 3. Невозможность собрать метрики.
 
 ## Состав:
-Backend:  
+# Backend:  
 FastAPI
 
-Frontend:  
+# Frontend:  
 Jinja2
 
-Database:  
+# Database:  
 PostgreSQL
 
-Deployment:  
+# Deployment:  
 NGINX, uvicorn 
 
 ## Сущности:
