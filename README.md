@@ -10,21 +10,20 @@
 3. Невозможность собрать метрики.
 
 ## Состав:
-Backend:  
-Flask
+### Backend:  
+FastAPI
 
-Frontend:  
-Jinja2
+### Frontend:  
+Jinja2, HTML + CSS + JS
 
-Database:  
-SQLite
+### Database:  
+PostgreSQL
 
-Deployment:  
-NGINX, Gunicorn 
+### Deployment:  
+NGINX, uvicorn 
 
 ## Сущности:
 - Товары
-- Категории
 - Пользователи
 - Роли (клиент, администратор)
 - Корзины
