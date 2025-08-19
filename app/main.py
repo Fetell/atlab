@@ -1,4 +1,3 @@
-# from pydantic import BaseModel
 from fastapi import Depends, FastAPI, Request
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
@@ -6,7 +5,7 @@ from fastapi.templating import Jinja2Templates
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from .models import Base, Product, SessionLocal, engine
+from src.app.models import Base, Product, SessionLocal, engine
 
 app = FastAPI()
 templates = Jinja2Templates(directory="templates")

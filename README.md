@@ -14,7 +14,7 @@
 FastAPI
 
 ### Frontend:  
-Jinja2
+Jinja2, HTML + CSS + JS
 
 ### Database:  
 PostgreSQL
